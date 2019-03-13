@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+.bar{
+    background-color: white;
+    height: 78px;
+    width: 960px;
+    margin: 0 auto;
+    
+    
+}
+
+.name{
+    background-color:#418ea0;
+    color: white;
+    padding: 20px;
+    width: 275px;
+    float: left;
+    letter-spacing: 1.5px;
+    
+}
+
+h1{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+
+
+
+.index,
+.port,
+.contact{
+    
+    float: right;
+    list-style-type: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+.index,
+.port {
+    border-right: solid 1px lightgrey;
+    margin-top: 25px;
+    height: 20px;
+}
+
+.contact{
+    margin-top: 25px;
+}
+
+a{
+    text-decoration: none; 
+    color: grey;
+    
+}
+
+.links{
+    float: right;
+    
+}
+
+section{
+    clear:both;
+    background: url(../../assets/images/morocco-blue/morocco-blue.png) top left repeat;
+    background-size: auto cover;
+    background-position: top left;
+    height: 840px;
+    border-top: 2px grey solid;
+    
+}
+
+.about{
+    color: #418ea0;
+    
+    padding: 20px;
+}
+
+hr{
+    margin: 0 20px;
+}
+
+.content{
+    background-color:white;
+    width: 960px;
+    margin: 0 auto;
+    height: 700px;
+    margin-top: 30px;
+    
+   
+}
+
+
+
+.myPhoto{
+    height: 450px;
+    padding: 30px 20px;
+}
+
+
+
+.paragraph1,
+.paragraph2,
+.paragraph3{
+    width: 600px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.paragraph1{
+    padding-top: 30px;
+}
+
+.paragraph2{
+    padding-top: 20px;
+}
+
+.paragraph3{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px; 
+    width: 100%;
+}
+
+.myPhoto,
+.paragraph1,
+.paragraph2,
+.paragraph3{
+    float: left;
+    
+}
+
+
+
+
+
+footer{
+    clear: both;
+    height: 85px;
+    background-color: #666666;
+    width: 100%;
+    border-top: 10px #418ea0 solid;
+}
+
