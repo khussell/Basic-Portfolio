@@ -9,34 +9,39 @@
         <nav class="bar">
             <h1 class="name">Kristin Schlitter</h1>
             <ul class="links">
-                <li class="contact"><a href="contact.html">Contact</a></li>
-                <li class="port"><a href="portfolio.html">Portfolio</a></li>
-                <li class="index"><a href="index.html">About</a></li>    
+                <li class="contact"><a class="navA" href="contact.html">Contact</a></li>
+                <li class="port"><a class="navA" href="portfolio.html">Portfolio</a></li>
+                <li class="index"><a class="navA" href="index.html">About</a></li>    
             </ul>
         </nav>
 
-        <section class="form">
-            <h1>Contact</h1>
-            <hr>
-            <form>
+        <section class="all form">
+            <div class="formContent">
+              <h1>Contact</h1>
+              <hr>
+              <form>
                 <section class="insertName">
                     <label for="name">Name</label>
-                    <input id="name" type="text" name="name">
+                    <br>
+                    <input class="sameSize" id="name" type="text" name="name">
                 </section>
                 <section class="insertEmail">
                     <label for="email">Email</label>
-                    <input id="email" type="text" name="email">
+                    <br>
+                    <input class="sameSize" id="email" type="text" name="email">
                 </section>
                 <section class="insertMessage">
                     <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="3" cols="40">Type here</textarea>
+                    <br>
+                    <textarea id="message" name="message" rows="7" cols="125"></textarea>
                 </section>
                 <section class="submit">
-                    <input type="submit" value="Submit">
+                    <input class="bttn" type="submit" value="Submit">
                 </section>
-            </form>
+              </form>
+            </div>
         </section>
-
+        <footer></footer>
     </body>
 
 </html>
