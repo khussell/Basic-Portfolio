@@ -6,7 +6,7 @@
 }
 
 .bar{
-    background-color: white;
+    background-color: #ffffff;
     height: 78px;
     width: 960px;
     margin: 0 auto;
@@ -145,4 +145,73 @@ footer{
     width: 100%;
     border-top: 10px #418ea0 solid;
 }
+
+
+
+
+
+/* Portfolio page */
+
+.portfolio{
+    height: 1150px;
+}
+
+
+.portContent{
+    background-color: white;
+    width: 960px;
+    margin: 0 auto;
+    height: 1050px;
+    margin-top: 30px;
+}
+.portHead{
+    color:#418ea0;
+    padding: 20px;
+}
+
+
+.portImg{
+    height: 300px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5{
+    position: relative;
+}
+
+.img1 > h4,
+.img2 > h4,
+.img3 > h4,
+.img4 > h4,
+.img5 > h4{
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+}
+
+
+
+.img1, 
+.img2,
+.img3,
+.img4,
+.img5{
+    float: left;
+}
+
+h4{
+    background-color: #418ea0;
+    color: white;
+    text-align: center;
+    width: 373px;
+    padding: 10px 0;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: normal;
+}
+
 
